@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.play.PlayActivity">
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_level_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_type" />
+
+    <LinearLayout
+        android:id="@+id/number_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/saron_container"
+        app:layout_constraintEnd_toEndOf="@id/saron_container"
+        app:layout_constraintStart_toStartOf="@id/saron_container">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/bilah_1"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/bilah_2"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/bilah_3"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/bilah_4"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/bilah_5"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/bilah_6"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/bilah_7"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/saron_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.example.saronapp.utils.BilahImageView
+            android:id="@+id/bilah1"
+            android:layout_width="30dp"
+            android:layout_height="220dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/purple_500" />
+
+        <com.example.saronapp.utils.BilahImageView
+            android:id="@+id/bilah2"
+            android:layout_width="30dp"
+            android:layout_height="210dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/purple_500" />
+
+        <com.example.saronapp.utils.BilahImageView
+            android:id="@+id/bilah3"
+            android:layout_width="30dp"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/purple_500"
+            tools:ignore="ContentDescription" />
+
+        <com.example.saronapp.utils.BilahImageView
+            android:id="@+id/bilah4"
+            android:layout_width="30dp"
+            android:layout_height="190dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/purple_500"
+            tools:ignore="ContentDescription" />
+
+        <com.example.saronapp.utils.BilahImageView
+            android:id="@+id/bilah5"
+            android:layout_width="30dp"
+            android:layout_height="180dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/purple_500"
+            tools:ignore="ContentDescription" />
+
+        <com.example.saronapp.utils.BilahImageView
+            android:id="@+id/bilah6"
+            android:layout_width="30dp"
+            android:layout_height="170dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/purple_500"
+            tools:ignore="ContentDescription" />
+
+        <com.example.saronapp.utils.BilahImageView
+            android:id="@+id/bilah7"
+            android:layout_width="30dp"
+            android:layout_height="160dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/purple_500"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="@string/initial_text"
+            android:textStyle="bold"
+            android:textAlignment="textEnd" />
+
+        <Button
+            android:id="@+id/btn_start_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/record" />
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/play" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Testing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

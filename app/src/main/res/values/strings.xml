@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">saronapp</string>
+    <string name="logo">Logo</string>
+    <string name="start">Mulai</string>
+    <string name="how_to_play">Cara Bermain</string>
+    <string name="about">Tentang Aplikasi</string>
+    <string name="setting">Setting</string>
+    <string name="back_button">Back Button</string>
+    <string name="type_title">Jenis Laras</string>
+    <string name="prefs_pelog">com.example.saronapp.prefs.pelog</string>
+    <string name="prefs_slendro">com.example.saronapp.prefs.slendro</string>
+
+    <!-- Long String Description -->
+    <string name="how_to_play_description">1. Smartphone yang digunakan harus memiliki jaringan internet\n2. Pemain hanya menggunakan 1 jenis laras saat bermain\n3. Permainan saron hanya menggunakan 1 pemukul (kayu/tanduk)\n4. Pilih tombol mulai pada menu utama untuk melakukan pelatihan\n5. Sebelum memulai pelatihan, pilih tipe laras dan level yang ingin dimainkan\n6. Setelah memasuki halaman permainan, ikuti perintaah aplikasi untuk memukul bilah yang berwarna lebih terang\n7. Gunakan tombol "Play" untuk memainkan contoh suara dari bilah yang harus dimainkan\n8. Gunakan tombol "Rekam" untuk memulai perekaman suara saron kemudian mainkan bilah yang diperintahkan\n9. Saat merekam suara, gunakan tombol "Berhenti" untuk menghentikan perekaman\n10. Lanjutkan langkah - langkah sebelumnya hingga mendapatkan poin pelatihan\n11. Setelah menyelesaikan pola yang harus dimainkan, akan terlihat poin sesuai dengan jumlah bilah yang benar dimainkan\n12. Jika pengguna mendapatkan poin minimal 80, maka level selanjutnya akan dapat diakses\n13. Ikuti tahapan pembelajaran saron dengan baik</string>
+    <string name="about_description">Aplikasi Saron Demung adalah sebuah aplikasi latihan dasar pada alat musik Saron Demung yang menggunakan inputan suara. Dengan adanya aplikasi ini diharapkan generasi muda tetap mempelajari dan terus memelihara dan melestarikan kebudayaan tradisional khususnya alat musik saron.\n\n Aplikasi ini dibuat untuk menyelesaikan Tugas Akhir Anang Bagus Prakoso di Program Studi Informatika, Universitas Udayana.</string>
+
+    <!-- Level Type -->
+    <string name="pelog_type">PELOG</string>
+    <string name="slendro_type">SLENDRO</string>
+    <string name="level">Level</string>
+
+    <!-- Level Number -->
+    <string name="level_1">1</string>
+    <string name="level_2">2</string>
+    <string name="level_3">3</string>
+    <string name="level_4">4</string>
+    <string name="level_5">5</string>
+
+    <!-- Level Title  -->
+    <string name="title_level_1">Level 1</string>
+    <string name="title_level_2">level 2</string>
+    <string name="title_level_3">level 3</string>
+    <string name="title_level_4">level 4</string>
+    <string name="title_level_5">level 5</string>
+
+    <!-- Bilah Number -->
+    <string name="bilah_1">1</string>
+    <string name="bilah_2">2</string>
+    <string name="bilah_3">3</string>
+    <string name="bilah_4">4</string>
+    <string name="bilah_5">5</string>
+    <string name="bilah_6">6</string>
+    <string name="bilah_7">7</string>
+
+    <!-- Play Activity -->
+    <string name="initial_text">Selamat Bermain !</string>
+    <string name="play">Play</string>
+    <string name="record">Rekam</string>
+    <string name="stop">Berhenti</string>
+    <string name="recording">Merekam...</string>
+    <string name="stopped">Selesai...</string>
+    <string name="result_score">Perolehan Poin</string>
+    <string name="score_template">%.1f/100</string>
+    <string name="loading">Loading...</string>
+    <string name="ask_play_again">Apakah Anda ingin bermain lagi?</string>
+    <string name="no">Tidak</string>
+    <string name="yes">Ya</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="splashscreen">SplashScreen</string>
+</resources>
